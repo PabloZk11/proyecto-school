@@ -1,0 +1,157 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	margin: 0;
+	font-family: 'Permanent Marker', cursive;
+	background-color: #000;
+	color: white;
+	box-sizing: border-box;
+}
+
+header{
+	background-color: rgb(34, 33, 33); 
+	background-position: center;	
+	background-size: cover;
+    justify-content: space-between;
+	height: 6.5em;
+	display: flex;
+	align-items: center;
+	padding: 0 auto;
+	margin: 0 0 20px 0;
+    max-width: 100%;
+
+}
+
+.title{
+	font-size: 3em;
+    text-shadow: 5px 5px #c182df;
+}
+
+.logo{
+	width: 4.7em;
+	display: flex;
+	align-items: center;
+	padding: 10px;
+
+}	
+
+a{
+    transition: color 0.3s ease;
+	font-size: 1.7em;
+	text-decoration: none ;
+	max-height: 25px;
+	align-items: center;
+	padding: 10px;
+}
+
+.anav{
+	border-bottom: solid 2px #fff;
+	margin: 10px;
+}
+
+a:link{
+	color: rgb(56, 129, 197);
+}
+
+
+a:visited{
+	color: rgb(56, 129, 197)  ;
+}
+
+a:hover{
+	color:rgb(160, 190, 216) ;
+}
+
+.cont-slid{
+	margin-bottom: 200px;
+	display: flex
+}
+
+#contenido-descr{
+	width: 35em;
+}
+
+#titds{
+	font-size: 30px;
+	color: #a637d1;
+	text-align: center;
+}
+
+#descr{
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 18px;
+	text-align: center;
+	margin: 10px 30px ;
+}
+
+.img1{
+	width: 15em;
+	float: right;
+}
+
+h2{
+	font-size: 30px;
+	text-align: center;
+	color: #a637d1;
+}
+
+.slider-frame{
+	width: 1000px;
+	height: auto;
+	margin: auto;
+	overflow: hidden;
+}
+.slider-frame ul{
+	display: flex;
+	padding: 0;
+	width: 400%;
+}
+
+.slider-frame li{
+	list-style: none ;
+	width: 100%;
+	height: 605px;
+	
+}
+
+.slider-frame img{
+	animation: slide 30s infinite alternate ease-in-out ;
+	width: 1000px;
+	height: 605px;
+}
+
+#sliderxd{
+	border-bottom: #2be41b 3px solid ;
+	border-top: #2be41b 3px solid;
+}
+
+
+@keyframes slide {
+	0%{margin-left: 0%;}
+	20%{margin-left: 0%;}
+
+	25%{margin-left: -100%;}
+	45%{margin-left: -100%;}
+
+	50%{margin-left: -200%;}
+	70%{margin-left: -200%;}
+
+	75%{margin-left: -300%;}
+	95%{margin-left: -300%;}
+}
+
+.productos-container{
+	border-top: #fff 3px solid;
+	background-color: rgb(0, 0, 0);
+	height: 400px;
+}
+
+.productos-container h1{
+	color: #a637d1;
+	font-size: 40px;
+	text-align: center;
+	padding-top: 10px;
+}
